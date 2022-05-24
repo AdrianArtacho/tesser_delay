@@ -41,3 +41,13 @@ ____
 # To-Do
 
 * Document features
+* Tesser_delay: just put a Toggle on each tesser delay line and save the settings
+* Have only 1 delay line per device (or toggle of the other ones)
+* have delay values "mappable", so that I can store them in clips as automation data
+* make <Tesser_delay> microtone-polyphony-capable (speak seamlessly with gt_Transmitter)
+* didn't I use the OSC adress 7533 already? what for? re-purpose
+* pipe ALL midi messages, so that it can be used to delay CC as well...
+* ZEITLUPE (vs. 'linear' delay) modi<> Tesser_delay modi: ABSOLUTE (saved, automation, CC), RELATIVE (to current transport tempo), SYNCED (to beat grid), DYNAMIC (Velocity dependant?)
+* ...for "DYNAMIC" modus of [Tesser_delay] we need to know which is the 1st note.  We could do that by pulling a "gesture Start/End" message.
+* add FB (feedback) knob... ( the highest position would be an infinite delay)
+* ...have "bouncy balls" initiate the "gesture" starting in different places.  ....bouncy ball + scale....
