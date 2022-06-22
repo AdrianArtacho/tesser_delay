@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1474.0, 56.0, 1296.0, 960.0 ],
+		"rect" : [ 129.0, 92.0, 1296.0, 960.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -385,6 +385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 920.0, 761.0, 386.0, 22.0 ]
 				}
 
@@ -397,6 +398,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 920.0, 730.0, 391.0, 22.0 ]
 				}
 
@@ -626,7 +628,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.0, 472.0, 50.0, 22.0 ],
-					"text" : "6"
+					"text" : "2"
 				}
 
 			}
@@ -638,7 +640,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1192.0, 472.0, 50.0, 22.0 ],
-					"text" : "21 6."
+					"text" : "21 2."
 				}
 
 			}
@@ -773,6 +775,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.992156862745098, 0.0, 1.0, 1.0 ],
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -781,9 +784,9 @@
 					"patching_rect" : [ 892.0, 614.0, 127.0, 22.0 ],
 					"restore" : 					{
 						"ActiveToggle" : [ 1.0 ],
-						"Delay-A" : [ 0.0 ],
-						"Delay-B" : [ 0.0 ],
-						"Delay-C" : [ 0.0 ],
+						"Delay-A" : [ 755.905511811023416 ],
+						"Delay-B" : [ 6771.653543307079417 ],
+						"Delay-C" : [ 1984.25196850393877 ],
 						"SyncMenu_1" : [ 0.0 ],
 						"SyncMenu_2" : [ 0.0 ],
 						"SyncMenu_3" : [ 0.0 ],
@@ -803,6 +806,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.956862745098039, 0.0, 1.0, 1.0 ],
 					"id" : "obj-80",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -811,6 +815,25 @@
 					"patching_rect" : [ 892.0, 566.0, 372.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 								{
+									"pattrstorage" : 									{
+										"name" : "tesser_delay",
+										"slots" : 										{
+											"1" : 											{
+												"id" : 1
+											}
+,
+											"2" : 											{
+												"id" : 2
+											}
+
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "m4l_device",
 							"parameter_shortname" : "m4l_device",
@@ -887,6 +910,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 62.270912528038025, 115.0, 9.0, 8.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Arm", "Trigger" ],
 							"parameter_invisible" : 2,
@@ -917,6 +944,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 81.0, 115.0, 8.0, 8.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Arm", "Trigger" ],
 							"parameter_invisible" : 2,
@@ -964,6 +995,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 114.95817494392395, 8.0, 8.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Arm", "Trigger" ],
 							"parameter_invisible" : 2,
@@ -1011,6 +1046,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 33.640684396028519, 114.95817494392395, 8.0, 8.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Arm", "Trigger" ],
 							"parameter_invisible" : 2,
@@ -1130,12 +1169,13 @@
 					"id" : "obj-132",
 					"maxclass" : "preset",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 913.0, 364.0, 100.0, 40.0 ],
 					"pattrstorage" : "tesser_delay",
 					"presentation" : 1,
-					"presentation_rect" : [ 149.0, -1.0, 175.0, 176.75 ]
+					"presentation_rect" : [ 149.0, -1.0, 175.0, 176.75 ],
+					"varname" : "preset"
 				}
 
 			}
@@ -2048,8 +2088,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3023,8 +3063,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5177,13 +5217,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
