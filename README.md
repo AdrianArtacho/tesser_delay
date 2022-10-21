@@ -51,3 +51,5 @@ ____
 * ...for "DYNAMIC" modus of [Tesser_delay] we need to know which is the 1st note.  We could do that by pulling a "gesture Start/End" message.
 * add FB (feedback) knob... ( the highest position would be an infinite delay)
 * ...have "bouncy balls" initiate the "gesture" starting in different places.  ....bouncy ball + scale....
+* swap `factor` and `semitones` GUI
+* 
