@@ -52,4 +52,5 @@ ____
 * add FB (feedback) knob... ( the highest position would be an infinite delay)
 * ...have "bouncy balls" initiate the "gesture" starting in different places.  ....bouncy ball + scale....
 * swap `factor` and `semitones` GUI
-* 
+* **deprecate** active toggle
+*  
