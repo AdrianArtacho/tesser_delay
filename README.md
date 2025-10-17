@@ -6,7 +6,7 @@ This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtac
 
 This device takes a midi input and delays it by an anount of time that can be fix (in milliseconds) or proportional to the current tempo
 
-![TESS:delay](https://docs.google.com/drawings/d/e/2PACX-1vSY5tPxPJAz-e3lKP6LcjSKrl4MXBU2I3c-ekQ02EicnxON9fFMW7IFgdhEzwGuT2PW1UqeSH9ifO5r/pub?w=715&h=350)
+![TESS:delay](img/gui.png)
 
 <sup>View of the device. Click  [here](https://docs.google.com/drawings/d/1PhLockgp09icAxNFx-1PHGeKwntM-sPB3hn-L10hLMU/edit) to edit.</sup>
 
